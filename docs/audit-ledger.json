@@ -1,0 +1,303 @@
+{
+  "genesis": "1a1d832c804661c4bfbd56877876f355d909bcdc4315324cff906cb3448cbfa7",
+  "entries": [
+    {
+      "seq": 1,
+      "kind": "source",
+      "id": "claims.csv",
+      "payload_hash": "5af63fa79cc5e013975f98b362dce9b61a65cbb5c2e5d174024e1527586e74d1",
+      "prev_hash": "1a1d832c804661c4bfbd56877876f355d909bcdc4315324cff906cb3448cbfa7",
+      "chain_hash": "33587d0816dea020257896380898e3dba0de301cfd668e60ef7bf3f34470263c"
+    },
+    {
+      "seq": 2,
+      "kind": "provider_insight",
+      "id": "INS-2f2dd8c3ed",
+      "payload_hash": "405370454213c78f02ff7dbe56f79a2d884dfd815c843c2412e2b1906ce7eb4c",
+      "prev_hash": "33587d0816dea020257896380898e3dba0de301cfd668e60ef7bf3f34470263c",
+      "chain_hash": "5455158cbc68a5481528c9af88e2d8790b863a14252cdb4684588c5894f07c9c"
+    },
+    {
+      "seq": 3,
+      "kind": "provider_insight",
+      "id": "INS-080d8064f2",
+      "payload_hash": "c7f60a280c5e2d57dabd28996bdc41e10740f447bafd61080e32493275815b3c",
+      "prev_hash": "5455158cbc68a5481528c9af88e2d8790b863a14252cdb4684588c5894f07c9c",
+      "chain_hash": "aafd34d77621f1464bad321549cc3dcc6da8d4e5f2792c2f91aa0c5723f6d929"
+    },
+    {
+      "seq": 4,
+      "kind": "provider_insight",
+      "id": "INS-d3040111bf",
+      "payload_hash": "8b51c8bc2f50fd060e527dcf79ead951daaeb35193ef01990d843a69a850b465",
+      "prev_hash": "aafd34d77621f1464bad321549cc3dcc6da8d4e5f2792c2f91aa0c5723f6d929",
+      "chain_hash": "41dc105f7bd7f60adcb6d163afd6a8e92d6f4b981fda1f7fdbdd455efeb2ba8f"
+    },
+    {
+      "seq": 5,
+      "kind": "provider_insight",
+      "id": "INS-fe8a482cd4",
+      "payload_hash": "e5b499fba8ffefb244e23a233a851fa5a76e976df1c0706c895b7198826d5664",
+      "prev_hash": "41dc105f7bd7f60adcb6d163afd6a8e92d6f4b981fda1f7fdbdd455efeb2ba8f",
+      "chain_hash": "26ec0084940934c8a404e5185b22a95dfb7982fed7f8cb23d734140044485b98"
+    },
+    {
+      "seq": 6,
+      "kind": "provider_insight",
+      "id": "INS-67a54ba5d2",
+      "payload_hash": "280d5eae86431aab5d662e567fb554203ba51822a3713490727a0e830e142ea6",
+      "prev_hash": "26ec0084940934c8a404e5185b22a95dfb7982fed7f8cb23d734140044485b98",
+      "chain_hash": "e9ba0a8d880618ceaf6268e154628d2dff154aa480ece202aa64cd0590402272"
+    },
+    {
+      "seq": 7,
+      "kind": "provider_insight",
+      "id": "INS-cea62df40a",
+      "payload_hash": "9d0596bcc6eade2b49765442fa0bdf3853633608512d77f2d89fe0072091749c",
+      "prev_hash": "e9ba0a8d880618ceaf6268e154628d2dff154aa480ece202aa64cd0590402272",
+      "chain_hash": "017ceddaee39dd33f80b532a07525a227217c9b31aae772e122c2d97625874ef"
+    },
+    {
+      "seq": 8,
+      "kind": "provider_insight",
+      "id": "INS-13fae37887",
+      "payload_hash": "7453fb193470b5078ee0a5e15a4e0d0b44597c8b4adb5a10c12fbc30b9e2d15a",
+      "prev_hash": "017ceddaee39dd33f80b532a07525a227217c9b31aae772e122c2d97625874ef",
+      "chain_hash": "4fe03c44db6ac58a62a830729109055bf618943e2ea4403a170cf47f5b66ed10"
+    },
+    {
+      "seq": 9,
+      "kind": "provider_insight",
+      "id": "INS-b1495e8f7d",
+      "payload_hash": "744def2612620bd7c1dd7a376b0e6bac6514662d6fed65d126e71932fa9a228b",
+      "prev_hash": "4fe03c44db6ac58a62a830729109055bf618943e2ea4403a170cf47f5b66ed10",
+      "chain_hash": "43a4498e711f136cc2e23854f09f071dbe16979ecc25e83f2fc49e81ee32144e"
+    },
+    {
+      "seq": 10,
+      "kind": "provider_insight",
+      "id": "INS-8c8c07f051",
+      "payload_hash": "e0b16751320c1720d1529330ac0ff4758fc7f6d4cafabf720604bda8b9677267",
+      "prev_hash": "43a4498e711f136cc2e23854f09f071dbe16979ecc25e83f2fc49e81ee32144e",
+      "chain_hash": "6823b7e1f87f81daec74664510d2b988dfee8443588449e850ba52bcc7620d0e"
+    },
+    {
+      "seq": 11,
+      "kind": "provider_insight",
+      "id": "INS-aa1c862073",
+      "payload_hash": "5c6327a06e8e1d57ce0b9b43534cf00995cd9e097b517cd395e48aa25c2917ca",
+      "prev_hash": "6823b7e1f87f81daec74664510d2b988dfee8443588449e850ba52bcc7620d0e",
+      "chain_hash": "ba72d9f85943879e95837cb6f49591675c3d2912a271e1e4c47f92d909aecfd9"
+    },
+    {
+      "seq": 12,
+      "kind": "provider_insight",
+      "id": "INS-196fba78c8",
+      "payload_hash": "9f75390d65e444a5d7fb36596bd5da304fc6f2464ae0ff2ad788e079c47cbd94",
+      "prev_hash": "ba72d9f85943879e95837cb6f49591675c3d2912a271e1e4c47f92d909aecfd9",
+      "chain_hash": "1d3877847a5c4ddfd7c7f545e6a9361d6d9f383833e462ec17b9c903f141d246"
+    },
+    {
+      "seq": 13,
+      "kind": "provider_insight",
+      "id": "INS-89ff4252e7",
+      "payload_hash": "f16dc3be6d0de116dde52202ba7d1d7e079cf279cba4bbae432995ec442c90f0",
+      "prev_hash": "1d3877847a5c4ddfd7c7f545e6a9361d6d9f383833e462ec17b9c903f141d246",
+      "chain_hash": "f04fba00c53a84a72b5cdd4e7dc2ba79e1de8f9c52828f264bd68c06525c77e2"
+    },
+    {
+      "seq": 14,
+      "kind": "provider_insight",
+      "id": "INS-7d2b3217ab",
+      "payload_hash": "d95713e2b13873d5d6097531032bd10e5b2f647bf7a154cb13175fd853305386",
+      "prev_hash": "f04fba00c53a84a72b5cdd4e7dc2ba79e1de8f9c52828f264bd68c06525c77e2",
+      "chain_hash": "4f23d24ae0b24784d9728b8780c2a55e079590dcbe9dd0ca532865de59080e3d"
+    },
+    {
+      "seq": 15,
+      "kind": "provider_insight",
+      "id": "INS-3bc3766b44",
+      "payload_hash": "8c7169dbe13511f2b8517d83ac26de724037e2f4951b09697675fa94334c8f08",
+      "prev_hash": "4f23d24ae0b24784d9728b8780c2a55e079590dcbe9dd0ca532865de59080e3d",
+      "chain_hash": "bf754a5baf03593471a17bfaccfef2c98dd28d9b5ef4beb1a465c2d203a93fd9"
+    },
+    {
+      "seq": 16,
+      "kind": "provider_insight",
+      "id": "INS-c45771e075",
+      "payload_hash": "55f023e40e516cbdbcf97ed06ee47dc33b823cd0f8f79f228704979ef94d305f",
+      "prev_hash": "bf754a5baf03593471a17bfaccfef2c98dd28d9b5ef4beb1a465c2d203a93fd9",
+      "chain_hash": "55475aa68544fede2e36c243eae0045d9212a7f2e0a5dff194ea218d7946dc7d"
+    },
+    {
+      "seq": 17,
+      "kind": "provider_insight",
+      "id": "INS-63b41e8b62",
+      "payload_hash": "9500ab7821750323265bed10e3b03bbe3a19f922ea413f387de8611213b28aea",
+      "prev_hash": "55475aa68544fede2e36c243eae0045d9212a7f2e0a5dff194ea218d7946dc7d",
+      "chain_hash": "36c3c7474932bb4dd9d842dc9b651767743131defd637b5b7d0bf9c53bb0e44e"
+    },
+    {
+      "seq": 18,
+      "kind": "provider_insight",
+      "id": "INS-9d0ad5548e",
+      "payload_hash": "5cdc351a2ecab119806c53a34292e197a242420565465939d67bd7b365c9cf98",
+      "prev_hash": "36c3c7474932bb4dd9d842dc9b651767743131defd637b5b7d0bf9c53bb0e44e",
+      "chain_hash": "e450286f1e45d170e8b757adf87e26aa97bafa86e14a38df847b39a3c987a190"
+    },
+    {
+      "seq": 19,
+      "kind": "provider_insight",
+      "id": "INS-b7ca92c915",
+      "payload_hash": "af1367f8ffca3e378ca7510a6c706a4cbf1834a330309d04db2b34fbfa852f1b",
+      "prev_hash": "e450286f1e45d170e8b757adf87e26aa97bafa86e14a38df847b39a3c987a190",
+      "chain_hash": "f02a56fae2429a6195c966e47d518407f473ddda8258413d0f508931644f109e"
+    },
+    {
+      "seq": 20,
+      "kind": "provider_insight",
+      "id": "INS-740d4b69ad",
+      "payload_hash": "cfe36666411766afef285aa744c4d5de11e6db49760e51d7a08348acad65a28c",
+      "prev_hash": "f02a56fae2429a6195c966e47d518407f473ddda8258413d0f508931644f109e",
+      "chain_hash": "838ab561bb78cb8111503bc190f8b4cf22116b20624b79633534748e0501cdff"
+    },
+    {
+      "seq": 21,
+      "kind": "provider_insight",
+      "id": "INS-0819bdc4ee",
+      "payload_hash": "e599d5d89fdb50d8cb910cc201db05654b9f9d12123bbac8927929bcc4f8f3e1",
+      "prev_hash": "838ab561bb78cb8111503bc190f8b4cf22116b20624b79633534748e0501cdff",
+      "chain_hash": "0feb9ee540008f1d4e10d53753b989958a44b02c3393b2c683944cfb6db8f418"
+    },
+    {
+      "seq": 22,
+      "kind": "provider_insight",
+      "id": "INS-543aca2c87",
+      "payload_hash": "cb8e9b660585cada906775b9fb111d5ffa05f4b8732139295a58afd9010f0faf",
+      "prev_hash": "0feb9ee540008f1d4e10d53753b989958a44b02c3393b2c683944cfb6db8f418",
+      "chain_hash": "cf3a2a2f5fbebc2344c00afc6ba55cc79b03d1a5b0fe4b3ed9129797bb5f8ae4"
+    },
+    {
+      "seq": 23,
+      "kind": "provider_insight",
+      "id": "INS-4a90156203",
+      "payload_hash": "880ffca2c4b40dea9c9921a9162145758b8ff8df4857a4889ce5bd19dec78113",
+      "prev_hash": "cf3a2a2f5fbebc2344c00afc6ba55cc79b03d1a5b0fe4b3ed9129797bb5f8ae4",
+      "chain_hash": "4e2644297cfdf6cc37d4e807343db3b5ed52e5b5adb5d8c34fbcaceb3d5105c0"
+    },
+    {
+      "seq": 24,
+      "kind": "provider_insight",
+      "id": "INS-db77f8fff0",
+      "payload_hash": "ee805ef5f2807502a65f770c9359de0aa5a07907f690a68fa8139520fa798c58",
+      "prev_hash": "4e2644297cfdf6cc37d4e807343db3b5ed52e5b5adb5d8c34fbcaceb3d5105c0",
+      "chain_hash": "c953714e075aeffe9182eb5d474923529a98745ecbfbf4a3ac1b746dd4988bad"
+    },
+    {
+      "seq": 25,
+      "kind": "provider_insight",
+      "id": "INS-8b1441dbf1",
+      "payload_hash": "6409b70aec3a22f51ebffdc6ff02557a9b4ed9ff7f4e6cc32749d116cc37cf5f",
+      "prev_hash": "c953714e075aeffe9182eb5d474923529a98745ecbfbf4a3ac1b746dd4988bad",
+      "chain_hash": "a4ef3b22f121334d3fce2859a62e02073551690b691c610f4436ddcc53589f70"
+    },
+    {
+      "seq": 26,
+      "kind": "provider_insight",
+      "id": "INS-5586a0df91",
+      "payload_hash": "047c6aac02e600b1b1f1259b375b13149714a62c81905f7d7f0a3ac49cb8beca",
+      "prev_hash": "a4ef3b22f121334d3fce2859a62e02073551690b691c610f4436ddcc53589f70",
+      "chain_hash": "b9e274a6f1aad70037c3bc6fe208e6b604c2e6aadcecc3a93448598d0c9e5e13"
+    },
+    {
+      "seq": 27,
+      "kind": "provider_insight",
+      "id": "INS-0d6675fd67",
+      "payload_hash": "72b9f866465a0ba7f6c8c3989b52cc17e830e37e2caa5c66197aeb8f6dcf8897",
+      "prev_hash": "b9e274a6f1aad70037c3bc6fe208e6b604c2e6aadcecc3a93448598d0c9e5e13",
+      "chain_hash": "dbb2cfced479e545e3aac5ea452691de9b9ab9576363d379aea488ed7dae58fa"
+    },
+    {
+      "seq": 28,
+      "kind": "provider_insight",
+      "id": "INS-347ac3d70f",
+      "payload_hash": "18c12f0e4b4617147b81461043defecb60d837224310605f09a9ab5071a5a3fc",
+      "prev_hash": "dbb2cfced479e545e3aac5ea452691de9b9ab9576363d379aea488ed7dae58fa",
+      "chain_hash": "f2b7444afdc0831495227ab0b910b83a0b2dc72badafdf40848943c45f808676"
+    },
+    {
+      "seq": 29,
+      "kind": "provider_insight",
+      "id": "INS-53d38937a6",
+      "payload_hash": "1f315c81a4cf3d147a89a9bb325a771d6938d635bb2d755cb15df284dab14713",
+      "prev_hash": "f2b7444afdc0831495227ab0b910b83a0b2dc72badafdf40848943c45f808676",
+      "chain_hash": "3422778c096220ae18a95a15661a3377429c755b63f979475be9c8b5fbdf4e4e"
+    },
+    {
+      "seq": 30,
+      "kind": "provider_insight",
+      "id": "INS-727d83fc82",
+      "payload_hash": "5a4f77afeea482c05155540032019b4c627f821185942a8a176c34cbbe6e68c5",
+      "prev_hash": "3422778c096220ae18a95a15661a3377429c755b63f979475be9c8b5fbdf4e4e",
+      "chain_hash": "317bc1db9240ac72e2bfa7458169fe078824b1b8d2406280f23aeaddae9e76eb"
+    },
+    {
+      "seq": 31,
+      "kind": "provider_insight",
+      "id": "INS-f493a79472",
+      "payload_hash": "67c25df2561b9a9662d2e9d53f419fdb8106d1cd30c1cf0f4b004bd156176890",
+      "prev_hash": "317bc1db9240ac72e2bfa7458169fe078824b1b8d2406280f23aeaddae9e76eb",
+      "chain_hash": "0812f585fa06a21a9083443451494bfb931ab6bce3f69a1218288b07a1f5043f"
+    },
+    {
+      "seq": 32,
+      "kind": "provider_insight",
+      "id": "INS-fe03b04896",
+      "payload_hash": "9b77f47512820a58430ab93faad4b8d712efafb68a6fd447cc093f24621e91ac",
+      "prev_hash": "0812f585fa06a21a9083443451494bfb931ab6bce3f69a1218288b07a1f5043f",
+      "chain_hash": "5ada00fdd06eb6f89684f3329f2b64a39519fdbe56a10c840d3a1b338545d334"
+    },
+    {
+      "seq": 33,
+      "kind": "provider_insight",
+      "id": "INS-1438f5a22f",
+      "payload_hash": "26ce9092bf3ae9cd9e5bff15009e1c8ea309b365c7466f8c86b1fab4a61aa10a",
+      "prev_hash": "5ada00fdd06eb6f89684f3329f2b64a39519fdbe56a10c840d3a1b338545d334",
+      "chain_hash": "fc7e12c33d8e6ab60104d5ad55083ce471065074d8d0cca1715cb80e65beb570"
+    },
+    {
+      "seq": 34,
+      "kind": "provider_insight",
+      "id": "INS-9d46c033db",
+      "payload_hash": "6edf162e314118fa1b8f70cb5883c07332cb7fcf51f016b639e9741043a70439",
+      "prev_hash": "fc7e12c33d8e6ab60104d5ad55083ce471065074d8d0cca1715cb80e65beb570",
+      "chain_hash": "b27c756533557f1479d8540eca97c7f043c24217a31413ad8cd8a763a37fac98"
+    },
+    {
+      "seq": 35,
+      "kind": "provider_insight",
+      "id": "INS-6249efa02e",
+      "payload_hash": "7e660d3fb6553434a393d0174d308f85122dad4f34d99c4b9afe3c198101ae04",
+      "prev_hash": "b27c756533557f1479d8540eca97c7f043c24217a31413ad8cd8a763a37fac98",
+      "chain_hash": "8d9f8f64a17b4263188b65eb9bbdc3da7d9fb88376b7344b27717026ee03c809"
+    },
+    {
+      "seq": 36,
+      "kind": "provider_insight",
+      "id": "INS-21cc5c7e1a",
+      "payload_hash": "c66bdabf2320acdee0dd0a6aabd4e357514a994208a6f2085f7527a8f4c2cf9b",
+      "prev_hash": "8d9f8f64a17b4263188b65eb9bbdc3da7d9fb88376b7344b27717026ee03c809",
+      "chain_hash": "fb21155b8054b0565fc7e66e1e6fa14df9a25c4f810bb572b5d7dc146f3e8cc4"
+    },
+    {
+      "seq": 37,
+      "kind": "provider_insight",
+      "id": "INS-ec76dd5c27",
+      "payload_hash": "90f1c97116f1b218de64689a30d089cabda3661f9f0a677ea542d6435fea4625",
+      "prev_hash": "fb21155b8054b0565fc7e66e1e6fa14df9a25c4f810bb572b5d7dc146f3e8cc4",
+      "chain_hash": "c1a63e91c19713719092dcbf239eb3f3f20b50976d8adada59584f2636a991e7"
+    }
+  ],
+  "tip": "c1a63e91c19713719092dcbf239eb3f3f20b50976d8adada59584f2636a991e7",
+  "audit_valid": true
+}
