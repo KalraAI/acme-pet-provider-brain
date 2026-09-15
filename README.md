@@ -1,10 +1,8 @@
-# Vet Provider Intelligence - synthetic commercial showcase
+# Acme Pet Vet Provider Intelligence
 
 A fully synthetic provider-intelligence proof that turns claim episodes into adjusted peer benchmarks, candidate review packets, monthly cost observations, and a buyer-verifiable audit chain.
 
-**Live demo:** https://petsure-provider-brain.vercel.app/
-
-This is decision support, not a fraud detector and not a PetSure system. It uses no PetSure data. A veterinary reviewer must agree, reject, amend, or request more evidence before any action.
+Acme Pet turns synthetic claim episodes into explainable provider insights. Veterinary reviewers can agree, mark a clinical justification, challenge the cohort or data, or request more evidence before action.
 
 ## Run
 
