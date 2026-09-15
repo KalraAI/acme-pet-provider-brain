@@ -45,7 +45,7 @@ for mi,m in enumerate(months):
   mix=current_total-prior_total-volume-price_intensity
   item['change_from_prior']={'total':round(current_total-prior_total,2),'volume':round(volume,2),'within_cohort_price_intensity':round(price_intensity,2),'cohort_mix_and_new_cells':round(mix,2),'identity_check':round(volume+price_intensity+mix,2),'not_causal':True}
  monthly.append(item)
-package={'generated_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'fixture':'fully synthetic; no PetSure data','method':{'purpose':'decision support only','cohort':'condition+treatment+region+provider_type+complexity','minimum_provider_claims':120,'price_ratio_threshold':1.18,'service_intensity_threshold':.38,'referral_delta_threshold':.20},'summary':{'claims':len(rows),'providers':len(prov),'candidate_providers':sum(bool(x['reasons']) for x in insights)},'monthly':monthly,'provider_insights':insights}
+package={'generated_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'fixture':'Acme Pet fully synthetic fixture','method':{'purpose':'decision support only','cohort':'condition+treatment+region+provider_type+complexity','minimum_provider_claims':120,'price_ratio_threshold':1.18,'service_intensity_threshold':.38,'referral_delta_threshold':.20},'summary':{'claims':len(rows),'providers':len(prov),'candidate_providers':sum(bool(x['reasons']) for x in insights)},'monthly':monthly,'provider_insights':insights}
 (OUT/'results.json').write_text(json.dumps(package,indent=2))
 # chain source and each insight. Review/actions will append later, never overwrite.
 prev=hashlib.sha256(b'vet-provider-intelligence-v0').hexdigest(); ledger=[]
