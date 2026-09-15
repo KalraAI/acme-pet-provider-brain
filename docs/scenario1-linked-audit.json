@@ -1,0 +1,39 @@
+{
+  "genesis": "47736831874d7b6419a1ab4b06937029a201c21227e6250009c929658aae1014",
+  "entries": [
+    {
+      "seq": 1,
+      "kind": "source",
+      "id": "synthetic-health-v1",
+      "payload_hash": "913cd5728c6de73abbc0465a56ea9c1d74d3d9ddedbd04a5ea2861ebfc2a7175",
+      "prev_hash": "47736831874d7b6419a1ab4b06937029a201c21227e6250009c929658aae1014",
+      "chain_hash": "2cfcbe4af17223967efc907b1941170d1ab8c20eaab9c4d1c8c54c4871b7a082"
+    },
+    {
+      "seq": 2,
+      "kind": "source",
+      "id": "synthetic-claims-v1",
+      "payload_hash": "32e0c67d42d582a88d9c514936b177f276ba956ade5922e4b01e12ee15be7f44",
+      "prev_hash": "2cfcbe4af17223967efc907b1941170d1ab8c20eaab9c4d1c8c54c4871b7a082",
+      "chain_hash": "7936bf5209561970bfdd2e3a0d962f8b5a12fed1685fb9db0ab183fc42861859"
+    },
+    {
+      "seq": 3,
+      "kind": "linkage_method",
+      "id": "pet-and-episode-key-v1",
+      "payload_hash": "a329abfdea1417e4945d208bdfc0c200f650c201e1d76615aa05b99f17ac2bf8",
+      "prev_hash": "7936bf5209561970bfdd2e3a0d962f8b5a12fed1685fb9db0ab183fc42861859",
+      "chain_hash": "1c65a130e722535ff0223ecaedeaaa39d71ab0bc31d6bc52c88c70c189c0e9fa"
+    },
+    {
+      "seq": 4,
+      "kind": "linked_insights",
+      "id": "scenario1-linked-results",
+      "payload_hash": "f91f65c2719589cea738ab60a4cefba6824732ef96b81a66dd079fd7cc8b7a85",
+      "prev_hash": "1c65a130e722535ff0223ecaedeaaa39d71ab0bc31d6bc52c88c70c189c0e9fa",
+      "chain_hash": "6d6dc6bde044e10e2eb4511c5768bbd4e93cf372c1935d7d246e63caa35e47b8"
+    }
+  ],
+  "tip": "6d6dc6bde044e10e2eb4511c5768bbd4e93cf372c1935d7d246e63caa35e47b8",
+  "audit_valid": true
+}

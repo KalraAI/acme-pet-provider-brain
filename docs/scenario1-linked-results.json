@@ -1,0 +1,270 @@
+{
+  "generated_at": "2026-09-15T21:53:00+00:00",
+  "fixture": "Acme Pet fully synthetic linked health + claims v1",
+  "linkage": {
+    "pet_identity_key": "pet_id",
+    "episode_join_key": "health_episode_id",
+    "join_cardinality": "one health episode to one associated claim",
+    "quality": {
+      "health_episodes": 9283,
+      "claims": 9283,
+      "linked_pairs": 9283,
+      "linked_pets": 2340,
+      "repeat_claim_pets": 2152,
+      "repeat_claim_pet_pct": 92.0,
+      "match_rate_pct": 100.0,
+      "unmatched_health_episodes": 0,
+      "unmatched_claims": 0,
+      "duplicate_link_keys": 0,
+      "pet_identity_key": "pet_id",
+      "episode_join_key": "health_episode_id"
+    }
+  },
+  "summary": {
+    "health_episodes": 9283,
+    "claims": 9283,
+    "linked_pairs": 9283,
+    "linked_pets": 2340,
+    "repeat_claim_pets": 2152,
+    "repeat_claim_pet_pct": 92.0,
+    "match_rate_pct": 100.0,
+    "unmatched_health_episodes": 0,
+    "unmatched_claims": 0,
+    "duplicate_link_keys": 0,
+    "pet_identity_key": "pet_id",
+    "episode_join_key": "health_episode_id"
+  },
+  "sample_pet": {
+    "pet_id": "P1057",
+    "linked_episodes": 10,
+    "total_paid": 3431.61,
+    "timeline": [
+      {
+        "date": "2025-02",
+        "health_episode_id": "HE-53ee082af741",
+        "condition": "otitis",
+        "treatment": "cytology",
+        "provider_id": "VET-007",
+        "complexity": 1,
+        "referred": true,
+        "claim_id": "C0106010",
+        "paid": 273.0,
+        "health_source": "synthetic-health-v1",
+        "claim_source": "synthetic-claims-v1"
+      },
+      {
+        "date": "2025-02",
+        "health_episode_id": "HE-f04abdfdfb20",
+        "condition": "otitis",
+        "treatment": "consult",
+        "provider_id": "VET-036",
+        "complexity": 2,
+        "referred": true,
+        "claim_id": "C0135016",
+        "paid": 346.04,
+        "health_source": "synthetic-health-v1",
+        "claim_source": "synthetic-claims-v1"
+      },
+      {
+        "date": "2025-03",
+        "health_episode_id": "HE-b7fb9f773ec4",
+        "condition": "dermatitis",
+        "treatment": "consult",
+        "provider_id": "VET-027",
+        "complexity": 1,
+        "referred": true,
+        "claim_id": "C0226008",
+        "paid": 334.72,
+        "health_source": "synthetic-health-v1",
+        "claim_source": "synthetic-claims-v1"
+      },
+      {
+        "date": "2025-05",
+        "health_episode_id": "HE-cd20378a5320",
+        "condition": "otitis",
+        "treatment": "cytology",
+        "provider_id": "VET-033",
+        "complexity": 0,
+        "referred": true,
+        "claim_id": "C0432015",
+        "paid": 160.91,
+        "health_source": "synthetic-health-v1",
+        "claim_source": "synthetic-claims-v1"
+      },
+      {
+        "date": "2025-06",
+        "health_episode_id": "HE-ea9773a6da53",
+        "condition": "dermatitis",
+        "treatment": "consult",
+        "provider_id": "VET-032",
+        "complexity": 2,
+        "referred": true,
+        "claim_id": "C0531010",
+        "paid": 316.73,
+        "health_source": "synthetic-health-v1",
+        "claim_source": "synthetic-claims-v1"
+      },
+      {
+        "date": "2025-07",
+        "health_episode_id": "HE-315aa215b05a",
+        "condition": "dermatitis",
+        "treatment": "consult",
+        "provider_id": "VET-027",
+        "complexity": 0,
+        "referred": true,
+        "claim_id": "C0626015",
+        "paid": 374.51,
+        "health_source": "synthetic-health-v1",
+        "claim_source": "synthetic-claims-v1"
+      },
+      {
+        "date": "2025-09",
+        "health_episode_id": "HE-58a638e5203f",
+        "condition": "otitis",
+        "treatment": "consult",
+        "provider_id": "VET-007",
+        "complexity": 2,
+        "referred": true,
+        "claim_id": "C0806005",
+        "paid": 392.04,
+        "health_source": "synthetic-health-v1",
+        "claim_source": "synthetic-claims-v1"
+      },
+      {
+        "date": "2025-09",
+        "health_episode_id": "HE-ad043251a905",
+        "condition": "gastroenteritis",
+        "treatment": "pathology",
+        "provider_id": "VET-020",
+        "complexity": 1,
+        "referred": false,
+        "claim_id": "C0819013",
+        "paid": 497.81,
+        "health_source": "synthetic-health-v1",
+        "claim_source": "synthetic-claims-v1"
+      },
+      {
+        "date": "2025-12",
+        "health_episode_id": "HE-3ca30c816c41",
+        "condition": "gastroenteritis",
+        "treatment": "pathology",
+        "provider_id": "VET-001",
+        "complexity": 0,
+        "referred": false,
+        "claim_id": "C1100007",
+        "paid": 467.77,
+        "health_source": "synthetic-health-v1",
+        "claim_source": "synthetic-claims-v1"
+      },
+      {
+        "date": "2025-12",
+        "health_episode_id": "HE-718d18167f72",
+        "condition": "dermatitis",
+        "treatment": "medication",
+        "provider_id": "VET-009",
+        "complexity": 0,
+        "referred": true,
+        "claim_id": "C1108008",
+        "paid": 268.08,
+        "health_source": "synthetic-health-v1",
+        "claim_source": "synthetic-claims-v1"
+      }
+    ]
+  },
+  "condition_insights": [
+    {
+      "condition": "dermatitis",
+      "episodes": 3152,
+      "total_paid": 926478.32,
+      "mean_paid": 293.93
+    },
+    {
+      "condition": "gastroenteritis",
+      "episodes": 3087,
+      "total_paid": 1117723.57,
+      "mean_paid": 362.07
+    },
+    {
+      "condition": "otitis",
+      "episodes": 3044,
+      "total_paid": 770892.33,
+      "mean_paid": 253.25
+    }
+  ],
+  "treatment_pathway_insights": [
+    {
+      "condition": "dermatitis",
+      "treatment": "consult",
+      "episodes": 1567,
+      "total_paid": 513257.85,
+      "mean_paid": 327.54
+    },
+    {
+      "condition": "dermatitis",
+      "treatment": "medication",
+      "episodes": 1585,
+      "total_paid": 413220.47,
+      "mean_paid": 260.71
+    },
+    {
+      "condition": "gastroenteritis",
+      "treatment": "consult",
+      "episodes": 1532,
+      "total_paid": 516313.42,
+      "mean_paid": 337.02
+    },
+    {
+      "condition": "gastroenteritis",
+      "treatment": "pathology",
+      "episodes": 1555,
+      "total_paid": 601410.15,
+      "mean_paid": 386.76
+    },
+    {
+      "condition": "otitis",
+      "treatment": "consult",
+      "episodes": 1501,
+      "total_paid": 458492.37,
+      "mean_paid": 305.46
+    },
+    {
+      "condition": "otitis",
+      "treatment": "cytology",
+      "episodes": 1543,
+      "total_paid": 312399.96,
+      "mean_paid": 202.46
+    }
+  ],
+  "repeat_condition_insights": [
+    {
+      "condition": "dermatitis",
+      "repeat_pets": 892,
+      "repeat_claims": 2276,
+      "mean_paid_per_repeat_pet": 749.5
+    },
+    {
+      "condition": "gastroenteritis",
+      "repeat_pets": 884,
+      "repeat_claims": 2219,
+      "mean_paid_per_repeat_pet": 907.92
+    },
+    {
+      "condition": "otitis",
+      "repeat_pets": 873,
+      "repeat_claims": 2208,
+      "mean_paid_per_repeat_pet": 647.23
+    }
+  ],
+  "use_cases": [
+    "health-mix-adjusted provider comparison",
+    "treatment-pathway and referral review",
+    "repeat-condition cohort monitoring",
+    "monthly frequency/severity/mix bridge"
+  ],
+  "boundaries": [
+    "fully synthetic fixture",
+    "observed comparisons only",
+    "no causal claim",
+    "no savings claim"
+  ]
+}
